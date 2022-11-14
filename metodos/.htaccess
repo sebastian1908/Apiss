@@ -1,0 +1,6 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule ^leerUsuario$ leerUsuario.php [NC,L]
+RewriteRule ^leerUsuario/([0-9_-]*)$ leerUsuario.php?id=$1 [NC,L]
+RewriteRule ^crearUsuario$ crearUsuario.php [NC,L]
+RewriteRule ^actualizarUsuario$ actualizarUsuario.php [NC,L]
+RewriteRule ^eliminarUsuario$ eliminarUsuario.php [NC,L]
